@@ -1,5 +1,8 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-export default defineNuxtConfig({
+export default {
+  build: {
+    publicPath: '/5ei74R0/',
+  },
   ssr: false,
   app: {
     head: {
@@ -19,4 +22,4 @@ export default defineNuxtConfig({
   colorMode: {
     classSuffix: '',
   },
-})
+}
