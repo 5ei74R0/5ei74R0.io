@@ -2,7 +2,7 @@
 export default {
   ssr: false,
   app: {
-    baseURL: '/5ei74R0/',
+    baseURL: '/5ei74R0.io/',
     head: {
       title: '5ei74R0.io',
       meta: [
