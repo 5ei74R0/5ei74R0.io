@@ -1,10 +1,8 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default {
-  // ssr: false,
-  router: {
-    base: '/5ei74R0/'
-  },
+  ssr: false,
   app: {
+    baseURL: '/5ei74R0/',
     head: {
       title: '5ei74R0.io',
       meta: [
