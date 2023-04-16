@@ -2,7 +2,7 @@
 const props = defineProps({
   imgSrc: {
     type: String,
-    default: "/images/ruin-cities2.png"
+    default: "/5ei74R0.io/images/ruin-cities2.png"
   },
   title: {
     type: String,

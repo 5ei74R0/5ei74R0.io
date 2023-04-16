@@ -5,7 +5,7 @@ const props = defineProps({
   bgImageString: {
     type: String,
     required: false,
-    default: "bg-[url(/images/snowy-mountains2_x2.png)] ",
+    default: "bg-[url('/images/snowy-mountains2_x2.png')] ",
   },
   additionalClasses: {
     type: String,
