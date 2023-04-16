@@ -1,9 +1,9 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default {
-  build: {
-    publicPath: '/5ei74R0/',
+  // ssr: false,
+  router: {
+    base: '/5ei74R0/'
   },
-  ssr: false,
   app: {
     head: {
       title: '5ei74R0.io',
