@@ -57,7 +57,7 @@ import NavBarDummy from '~/components/dummy/NavBarDummy.vue';
           <CardWithPhoto img-src="https://raw.githubusercontent.com/zellij-org/zellij/main/assets/demo.gif"
             title="Zellij: The Rust-Based Terminal Multiplexer Perfect for Beginners (JP)"
             description="I hope to make Zellij (I wonder if anyone can read ZELLIJ correctly on their first try) more widely known; how about you become a Zellij user too?"
-            class="mt-2 mb-4" />
+            link-address="https://zenn.dev/5ei74r0/articles/zellij-for-beginners" class="mt-2 mb-4" />
           <CardWithPhoto img-src="/5ei74R0.io/images/ruin-cities2.png" title="THIS CARD IS A DUMMY! (NO LINK EXISTS)"
             description="I mean, you know, this card (and the entire page) is under construction."
             class="mt-2 mb-4 content-end" />
