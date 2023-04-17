@@ -31,7 +31,7 @@ import NavBarDummy from '~/components/dummy/NavBarDummy.vue';
     <FixedBackGroundSection bg-image-string="bg-[url('/images/ruin-cities2.png')]">
       <div class="mx-auto self-center items-start flex flex-grow flex-col min-h-screen w-full max-w-screen-xl">
         <SmartAnchor id="projects" />
-        <BlurField blur-level="xs" class="bg-opacity-20 dark:bg-opacity-10 bg-nord-snow-0 dark:bg-nord-night-3">
+        <BlurField blur-level="md" class="bg-opacity-20 dark:bg-opacity-10 bg-nord-snow-0 dark:bg-nord-night-3">
           <SectionTitle2 title="Projects" link-to-itself="#projects"
             bg-image-string="bg-[url('/images/ruin-cities2.png')]" />
           <CardWithPhoto img-src="../5ei74R0.io/images/anonymask-demo3.png" title="Anonymask"
@@ -50,7 +50,7 @@ import NavBarDummy from '~/components/dummy/NavBarDummy.vue';
     </FixedBackGroundSection>
     <div class="mx-auto self-center items-end flex flex-grow flex-col min-h-screen w-full max-w-screen-xl">
       <SmartAnchor id="blog-posts" />
-      <BlurField blurLevel="xl" class="bg-opacity-20 dark:bg-opacity-10 bg-nord-snow-0 dark:bg-nord-night-3">
+      <BlurField blur-level="md" class="bg-opacity-20 dark:bg-opacity-10 bg-nord-snow-0 dark:bg-nord-night-3">
         <SectionTitle2 title="Blog Posts" link-to-itself="#blog-posts"
           bg-image-string="bg-[url('/images/snowy-mountains2_x2.png')]" additional-classes=" text-right" />
         <div class="flex flex-col">
@@ -73,7 +73,7 @@ import NavBarDummy from '~/components/dummy/NavBarDummy.vue';
     <FixedBackGroundSection bg-image-string="bg-[url('/images/server-room1.png')]">
       <div class="mx-auto self-center items-start flex flex-grow flex-col min-h-screen w-full max-w-screen-xl">
         <SmartAnchor id="work-experience" />
-        <BlurField blurLevel="xl" class="bg-opacity-20 dark:bg-opacity-10 bg-nord-snow-0 dark:bg-nord-night-3">
+        <BlurField blur-level="md" class="bg-opacity-20 dark:bg-opacity-10 bg-nord-snow-0 dark:bg-nord-night-3">
           <SectionTitle2 title="Work Experience" link-to-itself="#work-experience"
             bg-image-string="bg-[url('/images/server-room1.png')]" />
           <CardWithPhoto img-src="../5ei74R0.io/images/ruin-cities2.png"
@@ -94,7 +94,7 @@ import NavBarDummy from '~/components/dummy/NavBarDummy.vue';
     <FixedBackGroundSection bg-image-string="bg-[url('/images/snowy-mountain_x2.png')]">
       <div class="mx-auto self-center items-end flex flex-grow flex-col min-h-screen w-full max-w-screen-xl">
         <SmartAnchor id="publications-awards" />
-        <BlurField blurLevel="xl" class="bg-opacity-20 dark:bg-opacity-10 bg-nord-snow-0 dark:bg-nord-night-3">
+        <BlurField blur-level="md" class="bg-opacity-20 dark:bg-opacity-10 bg-nord-snow-0 dark:bg-nord-night-3">
           <SectionTitle2 title="Publications / Awards" link-to-itself="#publications-awards"
             bg-image-string="bg-[url('/images/snowy-mountains2_x2.png')]" additional-classes=" text-right" />
 
@@ -127,7 +127,7 @@ import NavBarDummy from '~/components/dummy/NavBarDummy.vue';
     </FixedBackGroundSection>
     <div class="mx-auto self-center flex flex-grow flex-col w-full max-w-screen-xl">
       <SmartAnchor id="miscellaneous" />
-      <BlurField blurLevel="xl"
+      <BlurField blur-level="md"
         class="m-4 self-center rounded-lg bg-opacity-20 dark:bg-opacity-10 bg-nord-snow-0 dark:bg-nord-night-3">
         <SectionTitle2 title="Misc." link-to-itself="#miscellaneous"
           bg-image-string="bg-[url('/images/snowy-mountains2_x2.png')]" />
