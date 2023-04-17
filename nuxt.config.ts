@@ -13,6 +13,9 @@ export default {
       ],
     },
   },
+  link: [
+    { rel: "icon", type: "image/x-icon", href: "/5ei74R0.io/favicon.ico" },
+  ],
   modules: [
     '@nuxtjs/tailwindcss',
     '@nuxtjs/color-mode',
