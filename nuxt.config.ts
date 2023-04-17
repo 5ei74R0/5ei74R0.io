@@ -12,7 +12,7 @@ export default {
         { hid: 'description', name: 'description', content: 'A portfolio page of 5ei74R0' },
       ],
       link: [
-        { rel: "icon", type: "image/x-icon", href: "../5ei74R0.io/favicon.ico" },
+        { rel: "icon", type: "image/x-icon", href: "/5ei74R0.io/favicon.ico" },
       ],
     },
   },
