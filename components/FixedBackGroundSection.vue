@@ -5,7 +5,7 @@ const props = defineProps({
   bgImageString: {
     type: String,
     required: false,
-    default: "bg-[url('/images/snowy-mountains2_x2.png')] ",
+    default: "bg-[url('/images/bg-waterfall4.png')] ",
   },
   additionalClasses: {
     type: String,
@@ -15,7 +15,7 @@ const props = defineProps({
 })
 
 const tailwindClassString = computed(() => {
-  return "bg-fixed bg-cover bg-nord-snow-2 dark:bg-nord-night-3 bg-blend-multiply " + props.bgImageString + " " + props.additionalClasses;
+  return "bg-fixed bg-cover bg-nord-snow-0 dark:bg-nord-night-0 bg-blend-overlay " + props.bgImageString + " " + props.additionalClasses;
 });
 </script>
 

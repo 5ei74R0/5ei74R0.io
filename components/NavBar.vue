@@ -86,25 +86,19 @@ onMounted(() => {
         <ul
           class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-nord-snow-2 rounded-lg bg-nord-snow-0 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-nord-snow-2 dark:bg-nord-night-3 md:dark:bg-nord-night-0 dark:border-nord-night-0">
           <li>
-            <NuxtLink to="#projects"
-              class="block py-2 pl-3 pr-4 text-nord-night-0 rounded hover:bg-nord-snow-1 md:hover:bg-transparent md:focus:text-nord-aurora-0 md:hover:text-nord-aurora-0 md:p-0 dark:text-nord-snow-2 md:dark:focus:text-nord-aurora-0 md:dark:hover:text-nord-aurora-0 dark:hover:bg-nord-night-1 dark:hover:text-nord-snow-2 md:dark:hover:bg-transparent dark:border-nord-night-0">
-              Projects</NuxtLink>
-          </li>
-          <li>
-            <NuxtLink to="#blog-posts"
-              class="block py-2 pl-3 pr-4 text-nord-night-0 rounded hover:bg-nord-snow-1 md:hover:bg-transparent md:focus:text-nord-aurora-0 md:hover:text-nord-aurora-0 md:p-0 dark:text-nord-snow-2 md:dark:focus:text-nord-aurora-0 md:dark:hover:text-nord-aurora-0 dark:hover:bg-nord-night-1 dark:hover:text-nord-snow-2 md:dark:hover:bg-transparent dark:border-nord-night-0">
-              Blog Posts</NuxtLink>
-          </li>
-          <li>
             <NuxtLink to="#work-experience"
               class="block py-2 pl-3 pr-4 text-nord-night-0 rounded hover:bg-nord-snow-1 md:hover:bg-transparent md:focus:text-nord-aurora-0 md:hover:text-nord-aurora-0 md:p-0 dark:text-nord-snow-2 md:dark:focus:text-nord-aurora-0 md:dark:hover:text-nord-aurora-0 dark:hover:bg-nord-night-1 dark:hover:text-nord-snow-2 md:dark:hover:bg-transparent dark:border-nord-night-0">
-              Work
-              Experience</NuxtLink>
+              Work Experience</NuxtLink>
           </li>
           <li>
             <NuxtLink to="#publications-awards"
               class="block py-2 pl-3 pr-4 text-nord-night-0 rounded hover:bg-nord-snow-1 md:hover:bg-transparent md:focus:text-nord-aurora-0 md:hover:text-nord-aurora-0 md:p-0 dark:text-nord-snow-2 md:dark:focus:text-nord-aurora-0 md:dark:hover:text-nord-aurora-0 dark:hover:bg-nord-night-1 dark:hover:text-nord-snow-2 md:dark:hover:bg-transparent dark:border-nord-night-0">
               Publications</NuxtLink>
+          </li>
+          <li>
+            <NuxtLink to="#projects"
+              class="block py-2 pl-3 pr-4 text-nord-night-0 rounded hover:bg-nord-snow-1 md:hover:bg-transparent md:focus:text-nord-aurora-0 md:hover:text-nord-aurora-0 md:p-0 dark:text-nord-snow-2 md:dark:focus:text-nord-aurora-0 md:dark:hover:text-nord-aurora-0 dark:hover:bg-nord-night-1 dark:hover:text-nord-snow-2 md:dark:hover:bg-transparent dark:border-nord-night-0">
+              Projects</NuxtLink>
           </li>
           <li>
             <NuxtLink to="#miscellaneous"

@@ -10,9 +10,6 @@
             <NuxtLink to="#projects" class="mr-4 hover:underline md:mr-6">Projects</NuxtLink>
           </li>
           <li>
-            <NuxtLink to="#blog-posts" class="mr-4 hover:underline md:mr-6">Blog Posts</NuxtLink>
-          </li>
-          <li>
             <NuxtLink to="#work-experience" class="mr-4 hover:underline md:mr-6 ">Work Experience</NuxtLink>
           </li>
           <li>
