@@ -22,7 +22,7 @@ import SmartAnchor from '~/components/SmartAnchor.vue';
             </h5>
             <p class="mb-3 font-normal text-nord-night-2 dark:text-nord-snow-0">
               From August 2023 to September 2023<br /><br />
-              Assigned to the theme of  "Development of learning methods for Large Language Models, etc."
+              Assigned to the theme of  "Development of training methods for large-scale language models"
             </p>
           </div>
         </FlexPhotoCard>
