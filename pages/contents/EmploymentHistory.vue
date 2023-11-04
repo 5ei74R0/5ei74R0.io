@@ -41,7 +41,7 @@ import SmartAnchor from '~/components/SmartAnchor.vue';
         </FlexPhotoCard>
 
         <!-- Ghelia -->
-        <FlexPhotoCard link-address="https://ghelia.com/en/" class="mt-4 mb-8 bg-[url('/images/bg-sketch1.png')] bg-blend-overlay">
+        <FlexPhotoCard link-address="https://ghelia.com/" class="mt-4 mb-8 bg-[url('/images/bg-sketch1.png')] bg-blend-overlay">
           <div class="flex flex-col justify-start p-4 leading-normal">
             <h5 class="mb-2 text-xl font-semibold tracking-tight text-nord-night-0 dark:text-nord-snow-2">
               Software Engineering Intern @ Ghelia Inc.
