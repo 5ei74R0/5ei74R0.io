@@ -8,7 +8,7 @@ const props = defineProps({
 })
 
 const tailwindClassString = computed(() => {
-  return "p-4 flex-grow max-w-screen-md my-8 " + props.additionalClasses;
+  return "p-4 flex-grow w-full md:max-w-screen-md my-8 " + props.additionalClasses;
 });
 </script>
 

@@ -1,11 +1,7 @@
 <script setup>
 const props = defineProps({
-  linkAddress: {
-    type: String,
-    default: "#"
-  },
+  linkAddress: String,
 });
-
 </script>
 
 <template>

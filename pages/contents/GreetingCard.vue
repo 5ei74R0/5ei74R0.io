@@ -6,15 +6,13 @@
         alt="" />
       <h5 class="mb-1 text-2xl font-medium text-nord-snow-2">Seitaro OTSUKI</h5>
       <span class="text-sm text-nord-snow-0">Graduate Student</span>
-      <div class="flex flex-grow flex-col mt-4 space-x-3 md:mt-6">
-        <p class="mx-auto w-5/6 mb-3 font-normal text-left text-nord-snow-2 dark:text-nord-snow-0 bg-clip-padding backdrop-filter backdrop-blur bg-opacity-0 rounded-md p-4">
-          Hey there!<br />
-          I'm a student who's super interested in machine learning, algorithm & data structure.<br />
-          My research area is AI/ML (specifically Vision-and-Language, Intelligent Robotics).<br />
-          I love doing surveys and keeping abreast of the latest news,
-          for it fuels my curiosity and nourishes my intellectual appetite!
-        </p>
-      </div>
+      <p class="mt-4 space-x-3 md:mt-6 mx-auto w-5/6 mb-3 font-normal text-left text-nord-snow-2 dark:text-nord-snow-0 bg-clip-padding backdrop-filter backdrop-blur bg-opacity-0 rounded-md p-4">
+        Hey there!<br />
+        I'm a student who's interested in machine learning, algorithm & data structure, etc.<br />
+        My research area is AI/ML (Specifically Vision-and-Language, Intelligent Robotics).<br />
+        I love doing surveys and keeping abreast of the latest news,
+        for it fuels my curiosity and nourishes my intellectual appetite!
+      </p>
     </div>
   </div>
 </template>
