@@ -8,16 +8,33 @@ import SmartAnchor from '~/components/SmartAnchor.vue';
     <SmartAnchor id="miscellaneous" />
     <WriteField>
       <SectionTitle title="Misc." link-to-itself="#miscellaneous" />
-      <h4 class="text-xl mt-4 mb-6">Outer Links</h4>
-      <svg class="h-5 ml-1" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" >
-        <title>Zenn</title><path d="M.264 23.771h4.984c.264 0 .498-.147.645-.352L19.614.874c.176-.293-.029-.645-.381-.645h-4.72c-.235 0-.44.117-.557.323L.03 23.361c-.088.176.029.41.234.41zM17.445 23.419l6.479-10.408c.205-.323-.029-.733-.41-.733h-4.691c-.176 0-.352.088-.44.235l-6.655 10.643c-.176.264.029.616.352.616h4.779c.234-.001.468-.118.586-.353z"/>
-      </svg>
-      <h4 class="text-xl mt-4 mb-6">Journal Club</h4>
-      <iframe class="speakerdeck-iframe" frameborder="0" src="https://speakerdeck.com/player/add5548186ba4ad0bc13645b1ff040db" title="[Journal club] Sigmoid Loss for Language Image Pre-Training" allowfullscreen="true" style="border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 315;" data-ratio="1.7777777777777777"></iframe>
+      <h4 class="text-xl mt-4 mb-2">Tech Blog (ja)</h4>
+      <p class="mb-8">
+        <NuxtLink to="https://zenn.dev/5ei74r0" class="hover:text-nord-aurora-1 underline">
+          See Zenn articles
+        </NuxtLink>
+      </p>
+      <h4 class="text-xl mt-4 mb-2">Journal Club</h4>
+      <p class="mb-8">
+        <NuxtLink to="https://speakerdeck.com/keio_smilab" class="hover:text-nord-aurora-1 underline">
+          (See other slides in Speaker Deck)
+        </NuxtLink>
+      </p>
+      <ul>
+        <li class="mb-8">
+          <iframe class="speakerdeck-iframe" frameborder="0" src="https://speakerdeck.com/player/e137bf9d652e42a3892f6986f38b25f4" title="[Journal club] Transformers Learn In-Context by Gradient Descent" allowfullscreen="true" style="border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 315;" data-ratio="1.7777777777777777"></iframe>
+        </li>
+        <li class="mb-8">
+          <iframe class="speakerdeck-iframe" frameborder="0" src="https://speakerdeck.com/player/fc8aecdd464544d0a597ef634832e7b7" title=" [Journal club] TIES-Merging: Resolving Interference When Merging Models" allowfullscreen="true" style="border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 315;" data-ratio="1.7777777777777777"></iframe>
+        </li>
+        <li class="mb-8">
+          <iframe class="speakerdeck-iframe" frameborder="0" src="https://speakerdeck.com/player/add5548186ba4ad0bc13645b1ff040db" title="[Journal club] Sigmoid Loss for Language Image Pre-Training" allowfullscreen="true" style="border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 315;" data-ratio="1.7777777777777777"></iframe>
+        </li>
+        <li class="mb-8">
+          <iframe class="speakerdeck-iframe" frameborder="0" src="https://speakerdeck.com/player/d08b8b5d8c8741cf85317edb17cce5ad" title="[Journal club] Data Efficient Language-Supervised Zero-Shot Recognition with Optimal Transport Distillation" allowfullscreen="true" style="border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 315;" data-ratio="1.7777777777777777"></iframe>
+        </li>
+      </ul>
 
-      <p class="mt-2"><NuxtLink to="https://smilab.org/publications/" class="hover:text-nord-aurora-1 underline">
-        See other slides in Speaker Deck
-        </NuxtLink></p>
     </WriteField>
   </div>
 </template>
