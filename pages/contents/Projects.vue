@@ -11,8 +11,10 @@ import SmartAnchor from '~/components/SmartAnchor.vue';
 
 <template>
   <FixedBackGroundSection bg-image-string="bg-[url('/images/bg-sketch2.png')]">
+    <!-- <div
+      class="mx-auto self-center items-center flex flex-grow flex-col min-h-screen w-full max-w-screen-xl text-nord-night-1 dark:text-nord-snow-1"> -->
     <div
-      class="mx-auto self-center items-center flex flex-grow flex-col min-h-screen w-full max-w-screen-xl text-nord-night-1 dark:text-nord-snow-1">
+      class="mx-auto self-center items-center flex flex-grow flex-col w-full max-w-screen-xl text-nord-night-1 dark:text-nord-snow-1">
       <WriteField>
         <SmartAnchor id="projects" />
         <SectionTitle title="Projects" link-to-itself="#projects" bg-image-string="bg-[url('/images/ruin-cities2.png')]"

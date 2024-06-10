@@ -17,6 +17,7 @@
     "tailwindcss": "^3.3.1"
   },
   "dependencies": {
+    "daisyui": "^4.10.2",
     "flowbite": "^1.6.4",
     "nord4tailwind": "github:5ei74R0/nord4tailwind#v1.0.0"
   }
