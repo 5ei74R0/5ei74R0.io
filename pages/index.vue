@@ -16,7 +16,7 @@ import NavBarDummy from '~/components/dummy/NavBarDummy.vue';
 
 <template>
   <div
-    class="flex flex-grow flex-col min-h-screen min-w-full bg-fixed bg-cover bg-[url('/images/bg-waterfall4.png')] dark:bg-[url('/images/bg-waterfall4-dark.png')] scrollbar::-webkit-scrollbar-thumb">
+    class="flex flex-grow flex-col min-h-screen min-w-full bg-fixed md:bg-cover bg-[url('/images/bg-waterfall4.png')] dark:bg-[url('/images/bg-waterfall4-dark.png')] scrollbar::-webkit-scrollbar-thumb">
     <NavBar />
     <NavBarDummy />
 

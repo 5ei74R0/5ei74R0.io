@@ -5,7 +5,7 @@ const props = defineProps({
   bgImageString: {
     type: String,
     required: false,
-    default: "bg-[url('/images/bg-waterfall4.png')] ",
+    default: "bg-[url('/images/bg-waterfall4.png')]",
   },
   additionalClasses: {
     type: String,
@@ -19,7 +19,7 @@ const containerClassString = computed(() => {
 });
 
 const bgClassString = computed(() => {
-  return "absolute inset-0 bg-fixed bg-cover bg-nord-snow-0 dark:bg-nord-night-0 bg-blend-overlay " + props.bgImageString;
+  return `absolute inset-0 bg-cover bg-nord-snow-0 dark:bg-nord-night-0 bg-blend-overlay ${props.bgImageString} md:bg-fixed bg-scroll`;
 });
 </script>
 
