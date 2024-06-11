@@ -17,6 +17,7 @@ import SmartAnchor from '~/components/SmartAnchor.vue';
         <SmartAnchor id="projects" />
         <SectionTitle title="Projects" link-to-itself="#projects" bg-image-string="bg-[url('/images/ruin-cities2.png')]"
           additional-classes=" text-left" />
+        <div class="flex justify-center">
         <FlexPhotoCard img-src="/5ei74R0.io/images/anonymask-demo3.png"
           link-address="https://github.com/5ei74R0/Anonymask/tree/main"
           class="mt-4 mb-8 bg-[url('/images/bg-sketch1.png')] bg-blend-overlay">
@@ -31,7 +32,7 @@ import SmartAnchor from '~/components/SmartAnchor.vue';
             </p>
           </div>
         </FlexPhotoCard>
-        <FlexPhotoCard img-src="/5ei74R0.io/images/dotfiles.jpg"
+        <!-- <FlexPhotoCard img-src="/5ei74R0.io/images/dotfiles.jpg"
           link-address="https://github.com/5ei74R0/dotfiles/tree/main"
           class="mt-4 mb-8 bg-[url('/images/bg-sketch1.png')] bg-blend-overlay">
           <div class="flex flex-col justify-start p-4 leading-normal">
@@ -47,10 +48,9 @@ import SmartAnchor from '~/components/SmartAnchor.vue';
               Test w/ Github Actions<br />
             </p>
           </div>
-        </FlexPhotoCard>
+        </FlexPhotoCard> -->
 
-        <!-- References -->
-        <Card link-address="" class="mt-24 mb-24">
+        <!-- <Card link-address="" class="mt-24 mb-24">
           <div class="flex flex-col justify-start p-4 leading-normal">
             <h5 class="mb-2 text-xl font-semibold tracking-tight">
               Repositories:
@@ -59,7 +59,8 @@ import SmartAnchor from '~/components/SmartAnchor.vue';
               See more projects at GitHub
             </NuxtLink>
           </div>
-        </Card>
+        </Card> -->
+        </div>
       </WriteField>
     </div>
   </FixedBackGroundSection>
