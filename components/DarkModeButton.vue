@@ -18,17 +18,18 @@
 export default {
   computed: {
     dark() {
-      return this.$colorMode.preference === 'dark'
+      return this.$colorMode.preference === 'dark';
     },
   },
   methods: {
     toggleColorMode() {
-      if (this.$colorMode.preference === 'dark') {
-        this.$colorMode.preference = 'light'
-      } else {
-        this.$colorMode.preference = 'dark'
-      }
+      this.$colorMode.preference = (this.$colorMode.preference === 'dark' ? 'light' : 'dark');
     },
+  },
+  mounted() {
+    this.$nextTick(() => {
+      this.$forceUpdate();
+    });
   },
 }
 </script>
