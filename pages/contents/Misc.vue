@@ -6,7 +6,7 @@ import SmartAnchor from '~/components/SmartAnchor.vue';
 <template>
   <div class="mx-auto self-center items-center flex flex-grow flex-col min-h-screen w-full max-w-screen-xl text-nord-night-1 dark:text-nord-snow-1">
     <SmartAnchor id="miscellaneous" />
-    <WriteField>
+    <WriteField class="md:backdrop-blur-xl md:bg-opacity-50 md:dark:bg-opacity-50 md:bg-nord-snow-0 md:dark:bg-nord-night-0 md:rounded-md">
       <SectionTitle title="Misc." link-to-itself="#miscellaneous" />
       <h4 class="text-xl mt-4 mb-2">Tech Blog (ja)</h4>
       <p class="mb-8">
