@@ -1,10 +1,15 @@
 <script setup>
+import { computed } from 'vue';
+
 const props = defineProps({
   anchorId: String,
+  id: String,
 })
+
+const resolvedId = computed(() => props.anchorId || props.id);
 </script>
 
 <!-- Avoiding navigation bar -->
 <template>
-  <div :id="anchorId" style="display: block; padding-top: 64px; margin-top: -64px;"></div>
+  <div :id="resolvedId" class="block scroll-mt-20"></div>
 </template>

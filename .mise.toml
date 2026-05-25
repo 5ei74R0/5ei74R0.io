@@ -1,0 +1,17 @@
+min_version = "2026.5.10"
+
+[tools]
+node = "20.19.0"
+pnpm = "11.0.6"
+
+[tasks.install]
+description = "Install dependencies with the pinned pnpm"
+run = "pnpm install"
+
+[tasks.dev]
+description = "Start the Nuxt development server"
+run = "pnpm dev"
+
+[tasks.generate]
+description = "Generate the GitHub Pages static site into docs/"
+run = "pnpm generate"

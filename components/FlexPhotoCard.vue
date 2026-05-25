@@ -23,9 +23,9 @@ const showImg = computed(() => props.imgSrc !== '')
 
 <template>
   <NuxtLink :to="linkAddress"
-    class="flex flex-col md:flex-row bg-nord-snow-2 border border-nord-snow-0 dark:border-nord-night-2 rounded-lg shadow md:max-w-xl hover:bg-nord-snow-1 dark:bg-nord-night-0 dark:hover:bg-nord-night-1">
-    <img v-if="showImg" class="object-cover w-full h-48 md:h-auto md:w-48 rounded-t-lg md:rounded-none md:rounded-l-lg"
-      :src="`${props.imgSrc}`" alt="">
+    class="group flex w-full flex-col overflow-hidden rounded-lg border border-nord-snow-0 bg-nord-snow-2 shadow-sm transition duration-200 hover:-translate-y-0.5 hover:border-nord-aurora-0 hover:bg-nord-snow-2 hover:shadow-md dark:border-nord-night-2 dark:bg-nord-night-0 dark:hover:border-nord-aurora-3 md:max-w-2xl md:flex-row">
+    <img v-if="showImg" class="h-56 w-full scale-[1.015] object-cover transition duration-300 group-hover:scale-[1.04] md:h-auto md:w-64"
+      :src="`${props.imgSrc}`" alt="Anonymask project demo">
     <slot />
   </NuxtLink>
 </template>
