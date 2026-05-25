@@ -20,6 +20,14 @@ onMounted(() => {
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=JetBrains+Mono:wght@200;400;600;800&family=Dancing+Script&family=Noto+Sans+Display:wght@300;500&family=Noto+Sans+JP:wght@300;500;700&display=swap');
 
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Noto Sans Display", "Noto Sans JP", system-ui, sans-serif;
+}
+
 ::-webkit-scrollbar {
   background-color: transparent;
   height: .6em;

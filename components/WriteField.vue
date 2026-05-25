@@ -1,4 +1,6 @@
 <script setup>
+import { computed } from 'vue';
+
 const props = defineProps({
   additionalClasses: {
     type: String,
@@ -8,7 +10,7 @@ const props = defineProps({
 })
 
 const tailwindClassString = computed(() => {
-  return "p-4 flex-grow w-full md:max-w-screen-md my-8 " + props.additionalClasses;
+  return "w-full flex-grow px-5 py-14 sm:px-8 md:max-w-screen-md md:py-20 " + props.additionalClasses;
 });
 </script>
 

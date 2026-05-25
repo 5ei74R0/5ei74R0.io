@@ -1,4 +1,6 @@
 <script setup>
+import { computed } from 'vue';
+
 const props = defineProps({
   title: {
     type: String,
@@ -17,16 +19,15 @@ const props = defineProps({
 });
 
 const tailwindClassString = computed(() => {
-  // return "object-cover mt-2 text-4xl " + props.textColor + " dark:" + props.textColorDark + " font-extrabold " + props.additionalClasses;
-  return "mt-2 font-light text-4xl text-nord-night-0 dark:text-nord-snow-1" + props.additionalClasses;
+  return "text-3xl font-semibold leading-tight text-nord-night-0 dark:text-nord-snow-1 sm:text-4xl " + props.additionalClasses;
 });
 </script>
 
 <template>
-  <h1 :class="tailwindClassString">
+  <h2 :class="tailwindClassString">
     <NuxtLink :to="linkToItself">
       {{ title }}
     </NuxtLink>
-  </h1>
-  <hr class="mt-2 mb-6 border-gray-300 sm:mx-auto dark:border-gray-700" />
+  </h2>
+  <div class="mt-3 mb-8 h-px w-20 bg-nord-aurora-0 dark:bg-nord-aurora-3" aria-hidden="true"></div>
 </template>

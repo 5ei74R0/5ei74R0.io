@@ -1,0 +1,21 @@
+packages:
+  - .
+
+# Hold newly-published package versions for 7 days before allowing resolution.
+# 10080 minutes = 7 days.
+minimumReleaseAge: 10080
+minimumReleaseAgeStrict: true
+minimumReleaseAgeIgnoreMissingTime: false
+
+# Keep transitive dependencies on registry-backed sources.
+blockExoticSubdeps: true
+
+# Preserve the previous pnpm compatibility settings that were in .npmrc.
+shamefullyHoist: true
+strictPeerDependencies: false
+savePrefix: ""
+
+# Dependency install scripts stay blocked by default; allow only packages this stack needs.
+allowBuilds:
+  esbuild: true
+  fsevents: true

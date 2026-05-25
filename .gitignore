@@ -1,9 +1,19 @@
 node_modules
+.pnpm-store
 *.log*
 .nuxt
 .nitro
 .cache
 .output
 .env
+server
+mise.local.toml
+.mise.local.toml
 dist
 .DS_Store
+
+# Local reference material used while updating portfolio content
+Profile.pdf
+Screenshot *.png
+_Seitaro OTSUKI_ - _Google Scholar_.html
+_Seitaro OTSUKI_ - _Google Scholar__files/
