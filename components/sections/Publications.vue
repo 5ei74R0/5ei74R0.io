@@ -18,7 +18,7 @@ const peerReviewedPublications = [
       { name: 'K. Sugiura' },
     ],
     detail: '28th International Conference on Pattern Recognition',
-    link: 'https://arxiv.org/abs/2604.08050',
+    link: 'https://scholar.google.co.jp/citations?view_op=view_citation&hl=en&user=koZVTJ4AAAAJ&citation_for_view=koZVTJ4AAAAJ:Y0pCki6q_DkC',
   },
   {
     year: '2026',
@@ -34,7 +34,7 @@ const peerReviewedPublications = [
       { name: 'K. Sugiura' },
     ],
     detail: 'Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR Findings)',
-    link: 'https://arxiv.org/abs/2603.05446',
+    link: 'https://scholar.google.co.jp/citations?view_op=view_citation&hl=en&user=koZVTJ4AAAAJ&citation_for_view=koZVTJ4AAAAJ:Tyk-4Ss8FVUC',
   },
   {
     year: '2026',
