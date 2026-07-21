@@ -7,6 +7,37 @@ import SmartAnchor from '~/components/SmartAnchor.vue';
 const peerReviewedPublications = [
   {
     year: '2026',
+    venue: 'ICPR 2026',
+    title: 'ABMAMBA: Multimodal Large Language Model with Aligned Hierarchical Bidirectional Scan for Efficient Video Captioning',
+    authors: [
+      { name: 'D. Yashima' },
+      { name: 'S. Kurita' },
+      { name: 'Y. Oda' },
+      { name: 'S. Suzuki' },
+      { name: 'S. Otsuki', self: true },
+      { name: 'K. Sugiura' },
+    ],
+    detail: '28th International Conference on Pattern Recognition',
+    link: 'https://arxiv.org/abs/2604.08050',
+  },
+  {
+    year: '2026',
+    venue: 'CVPR 2026 Findings',
+    title: 'NaiLIA: Multimodal Nail Design Retrieval Based on Dense Intent Descriptions and Palette Queries',
+    authors: [
+      { name: 'K. Amemiya' },
+      { name: 'D. Yashima' },
+      { name: 'K. Katsumata' },
+      { name: 'T. Komatsu' },
+      { name: 'R. Korekata' },
+      { name: 'S. Otsuki', self: true },
+      { name: 'K. Sugiura' },
+    ],
+    detail: 'Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR Findings)',
+    link: 'https://arxiv.org/abs/2603.05446',
+  },
+  {
+    year: '2026',
     venue: 'AAAI 2026',
     title: 'LLM-Free Image Captioning Evaluation in Reference-Flexible Settings',
     authors: [
@@ -94,37 +125,7 @@ const peerReviewedPublications = [
   },
 ];
 
-const preprints = [
-  {
-    year: '2026',
-    venue: 'arXiv',
-    title: 'ABMAMBA: Multimodal Large Language Model with Aligned Hierarchical Bidirectional Scan for Efficient Video Captioning',
-    authors: [
-      { name: 'D. Yashima' },
-      { name: 'S. Kurita' },
-      { name: 'Y. Oda' },
-      { name: 'S. Suzuki' },
-      { name: 'S. Otsuki', self: true },
-      { name: 'K. Sugiura' },
-    ],
-    link: 'https://scholar.google.co.jp/citations?view_op=view_citation&hl=en&user=koZVTJ4AAAAJ&citation_for_view=koZVTJ4AAAAJ:Y0pCki6q_DkC',
-  },
-  {
-    year: '2026',
-    venue: 'arXiv',
-    title: 'NaiLIA: Multimodal Nail Design Retrieval Based on Dense Intent Descriptions and Palette Queries',
-    authors: [
-      { name: 'K. Amemiya' },
-      { name: 'D. Yashima' },
-      { name: 'K. Katsumata' },
-      { name: 'T. Komatsu' },
-      { name: 'R. Korekata' },
-      { name: 'S. Otsuki', self: true },
-      { name: 'others' },
-    ],
-    link: 'https://scholar.google.co.jp/citations?view_op=view_citation&hl=en&user=koZVTJ4AAAAJ&citation_for_view=koZVTJ4AAAAJ:Tyk-4Ss8FVUC',
-  },
-];
+const preprints = [];
 </script>
 
 <template>
@@ -137,14 +138,14 @@ const preprints = [
       <WriteField additional-classes="mx-auto">
         <SectionTitle title="Publications" link-to-itself="#publications-awards" />
         <p class="mb-8 max-w-2xl leading-8 text-nord-night-2 dark:text-nord-snow-0">
-          Selected peer-reviewed publications and recent preprints in multimodal learning,
+          Selected peer-reviewed publications and recent preprints in multimodal learning, vision-language models,
           caption evaluation, robotics, and model interpretation.
         </p>
 
         <dl class="mb-12 grid gap-3 text-sm sm:grid-cols-3">
           <div class="border-t border-nord-night-0/20 pt-3 dark:border-nord-snow-2/20">
             <dt class="text-nord-night-2 dark:text-nord-snow-0">Google Scholar</dt>
-            <dd class="mt-1 font-semibold text-nord-night-0 dark:text-nord-snow-2">40 citations</dd>
+            <dd class="mt-1 font-semibold text-nord-night-0 dark:text-nord-snow-2">50 citations</dd>
           </div>
           <div class="border-t border-nord-night-0/20 pt-3 dark:border-nord-snow-2/20">
             <dt class="text-nord-night-2 dark:text-nord-snow-0">Indexed Works</dt>
@@ -186,7 +187,7 @@ const preprints = [
           </article>
         </div>
 
-        <h3 class="mb-4 mt-12 text-xl font-semibold text-nord-night-0 dark:text-nord-snow-2">Recent Preprints</h3>
+        <!-- <h3 class="mb-4 mt-12 text-xl font-semibold text-nord-night-0 dark:text-nord-snow-2">Recent Preprints</h3>
 
         <div class="space-y-5">
           <article
@@ -211,7 +212,7 @@ const preprints = [
               </p>
             </div>
           </article>
-        </div>
+        </div> -->
 
         <h3 class="mb-4 mt-12 text-xl font-semibold text-nord-night-0 dark:text-nord-snow-2">Profiles</h3>
         <div class="flex flex-col gap-2 text-sm">
