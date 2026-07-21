@@ -67,7 +67,7 @@ import NavBarDummy from '~/components/dummy/NavBarDummy.vue';
                 </div>
                 <div class="border-t border-nord-night-0/20 pt-3 dark:border-nord-snow-2/20">
                   <dt class="text-nord-night-2 dark:text-nord-snow-0">Google Scholar</dt>
-                  <dd class="mt-1 font-semibold text-nord-night-0 dark:text-nord-snow-2">40 citations</dd>
+                  <dd class="mt-1 font-semibold text-nord-night-0 dark:text-nord-snow-2">50 citations</dd>
                 </div>
               </dl>
 
